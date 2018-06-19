@@ -1,0 +1,44 @@
+{
+  "name": "react-web-components",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server --progress --colors"
+  },
+  "dependencies": {
+    "bitcoinjs-lib": "https://github.com/mattBlackDesign/bitcoinjs-lib",
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+    "net": "^1.0.2",
+    "popper.js": "^1.14.3",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "request": "^2.87.0",
+    "tls": "0.0.1",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-import-export": "^1.0.2",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^4.3.0",
+    "eslint-plugin-react": "^7.1.0",
+    "html-webpack-plugin": "^2.29.0",
+    "react-hot-loader": "^1.3.1",
+    "react-vdom": "^0.6.2",
+    "webpack": "^3.4.0",
+    "webpack-dev-server": "^2.6.1"
+  },
+  "babel": {
+    "presets": [
+      "import-export",
+      "react",
+      "stage-2"
+    ]
+  }
+}
